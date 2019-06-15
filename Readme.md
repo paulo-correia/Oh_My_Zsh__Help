@@ -87,11 +87,14 @@ cp .zshrc zshrc-bkp
 ```
 ### Clone este repositório com o comando:
 ```
-git clone
+git clone https://github.com/paulo-correia/Oh_My_Zsh__Help.git
+
 ```
-E copie o .zshrc "em cima" do seu com o comando:
+Execute o script com os comandos:
 ```
-cp .zshrc .
+cd Oh_My_Zsh__Help
+./muda_tema.sh
+
 ```
 ### 7) Feche o terminal e entre novamente
 Já estará istalado o Oh My Zsh com o tema agnoster
@@ -104,6 +107,7 @@ cp agnoster.zsh-theme agnoster-bkp
 ```
 Copie o tema modificado em cima do original com o comando:
 ```
-
+cd ../../
+cp Oh_My_Zsh__Help/agnoster.zsh-theme .oh-my-zsh/themes
 ```
 
