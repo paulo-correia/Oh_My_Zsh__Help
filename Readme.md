@@ -94,7 +94,7 @@ Execute o script com os comandos:
 ```
 cd Oh_My_Zsh__Help
 ./muda_tema.sh
-
+cd ~
 ```
 ### 7) Feche o terminal e entre novamente
 Já estará istalado o Oh My Zsh com o tema agnoster
@@ -104,10 +104,11 @@ Caso aprenente o erro "oh-my-zsh/themes/agnoster.zsh-theme:27: unknown file attr
 ```
 cd .oh-my-zsh/themes
 cp agnoster.zsh-theme agnoster-bkp
+cd ~
 ```
 Copie o tema modificado em cima do original com o comando:
 ```
-cd ../../
+cd ~
 cp Oh_My_Zsh__Help/agnoster.zsh-theme .oh-my-zsh/themes
 ```
 
