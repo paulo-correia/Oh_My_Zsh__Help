@@ -3,7 +3,7 @@
 # Importante: <font color="red">Nunca instale no servidor</font>, sempre no seu micro local
 
 ## 1) Pré requisitos 
-(Obs: para instalar entre no terminal e digite sudo su)
+(Obs: para instalar entre no terminal e digite sudo su ou su)
 ### 1.1) Ter o zsh instalado
 ### Debian / Ubuntu / ...
 ```
@@ -31,6 +31,10 @@ apt-get install git git-doc
 ```
 yum -y install git
 ```
+
+# Volte ao usuário comum antes de seguir os passos abaixo
+Pressionando `Ctrl + d`
+
 ## 2) Instalando o Oh My Zsh <a href="https://ohmyz.sh/">Site Oficial</a>
 ### Pode ser istalado usando o curl ou o wget
 ### Usando o curl
@@ -70,7 +74,9 @@ cd ~
 ```
 ### Debian / Ubuntu / ...
 ```
+su ou sudo su
 apt-get install fonts-powerline
+Pressione `Ctrl + d`
 ```
 ### RedHat / CentOS / ...
 ```
@@ -111,4 +117,3 @@ Copie o tema modificado em cima do original com o comando:
 cd ~
 cp Oh_My_Zsh__Help/agnoster.zsh-theme .oh-my-zsh/themes
 ```
-
